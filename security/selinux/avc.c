@@ -33,6 +33,11 @@
 #include "avc.h"
 #include "avc_ss.h"
 #include "classmap.h"
+#ifdef CONFIG_KSU_SUSFS
+extern u32 susfs_ksu_sid;
+extern u32 susfs_priv_app_sid;
+extern struct static_key_false susfs_is_avc_log_spoofing_enabled;
+#endif
 
 #define AVC_CACHE_SLOTS			512
 #define AVC_DEF_CACHE_THRESHOLD		512
@@ -754,10 +759,18 @@ static void avc_audit_pre_callback(struct audit_buffer *ab, void *a)
 static void avc_audit_post_callback(struct audit_buffer *ab, void *a)
 {
 	struct common_audit_data *ad = a;
+  u32 tsid = ad->selinux_audit_data->tsid;
+
 	audit_log_format(ab, " ");
+  #ifdef CONFIG_KSU_SUSFS
+	if (static_branch_likely(&susfs_is_avc_log_spoofing_enabled)) {
+		if (unlikely(tsid == susfs_ksu_sid))
+			tsid = susfs_priv_app_sid;
+	}
+#endif
 	avc_dump_query(ab, ad->selinux_audit_data->state,
 		       ad->selinux_audit_data->ssid,
-		       ad->selinux_audit_data->tsid,
+		       tsid,
 		       ad->selinux_audit_data->tclass);
 	if (ad->selinux_audit_data->denied) {
 		audit_log_format(ab, " permissive=%u",

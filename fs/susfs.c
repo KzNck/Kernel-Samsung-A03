@@ -901,6 +901,68 @@ out:
 }
 #endif // #ifdef CONFIG_KSU_SUSFS_SUS_SU
 
+/* sus_map */
+#ifdef CONFIG_KSU_SUSFS_SUS_MAP
+int susfs_add_sus_map(struct st_susfs_sus_map* __user user_info) {
+	struct st_susfs_sus_map info;
+	struct path p;
+	struct inode *inode;
+	int err;
+
+	if (copy_from_user(&info, user_info, sizeof(info))) {
+		SUSFS_LOGE("failed copying from userspace\n");
+		return 1;
+	}
+
+	if (strlen(info.target_pathname) == 0) {
+		SUSFS_LOGE("target_pathname is an empty string\n");
+		return 1;
+	}
+
+	err = kern_path(info.target_pathname, LOOKUP_FOLLOW, &p);
+	if (err) {
+		SUSFS_LOGE("Failed opening file '%s'\n", info.target_pathname);
+		return 1;
+	}
+
+	inode = d_inode(p.dentry);
+	if (!inode) {
+		path_put(&p);
+		SUSFS_LOGE("inode is NULL\n");
+		return 1;
+	}
+
+	if (!(inode->i_state & INODE_STATE_SUS_MAP)) {
+		spin_lock(&inode->i_lock);
+		inode->i_state |= INODE_STATE_SUS_MAP;
+		spin_unlock(&inode->i_lock);
+	}
+	SUSFS_LOGI("target_pathname: '%s', is flagged as INODE_STATE_SUS_MAP\n", info.target_pathname);
+	path_put(&p);
+	return 0;
+}
+#endif // #ifdef CONFIG_KSU_SUSFS_SUS_MAP
+
+/* avc_log_spoofing */
+DEFINE_STATIC_KEY_FALSE(susfs_is_avc_log_spoofing_enabled);
+int susfs_set_avc_log_spoofing(struct st_susfs_avc_log_spoofing* __user user_info) {
+	struct st_susfs_avc_log_spoofing info;
+
+	if (copy_from_user(&info, user_info, sizeof(info))) {
+		SUSFS_LOGE("failed copying from userspace\n");
+		return 1;
+	}
+
+	if (info.enabled) {
+		static_branch_enable(&susfs_is_avc_log_spoofing_enabled);
+		SUSFS_LOGI("avc log spoofing is enabled\n");
+	} else {
+		static_branch_disable(&susfs_is_avc_log_spoofing_enabled);
+		SUSFS_LOGI("avc log spoofing is disabled\n");
+	}
+	return 0;
+}
+
 /* susfs_init */
 void susfs_init(void) {
 	spin_lock_init(&susfs_spin_lock);

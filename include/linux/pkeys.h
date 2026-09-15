@@ -39,6 +39,15 @@ static inline void copy_init_pkru_to_fpregs(void)
 {
 }
 
-#endif /* ! CONFIG_ARCH_HAS_PKEYS */
+static inline int vma_pkey(struct vm_area_struct *vma)
+{
+	return 0;
+}
 
+static inline bool arch_pkeys_enabled(void)
+{
+	return false;
+}
+
+#endif /* ! CONFIG_ARCH_HAS_PKEYS */
 #endif /* _LINUX_PKEYS_H */

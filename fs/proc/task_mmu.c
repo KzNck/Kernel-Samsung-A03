@@ -24,6 +24,7 @@
 #include <linux/ctype.h>
 #ifdef CONFIG_KSU_SUSFS_SUS_KSTAT
 #include <linux/susfs_def.h>
+#include <linux/pkeys.h>
 #endif
 
 #include <asm/elf.h>
@@ -390,9 +391,13 @@ show_map_vma(struct seq_file *m, struct vm_area_struct *vma, int is_pid)
 
 	if (file) {
 		struct inode *inode = file_inode(vma->vm_file);
+#ifdef CONFIG_KSU_SUSFS_SUS_MAP
+		if (SUSFS_IS_INODE_SUS_MAP(inode))
+			return;
+#endif
 #ifdef CONFIG_KSU_SUSFS_SUS_KSTAT
 		if (unlikely(inode->i_state & INODE_STATE_SUS_KSTAT)) {
-			susfs_sus_ino_for_show_map_vma(inode->i_ino, &dev, &ino);
+  susfs_sus_ino_for_show_map_vma(inode->i_ino, &dev, &ino);
 			goto bypass_orig_flow;
 		}
 #endif
@@ -1010,11 +1015,21 @@ static int show_smap(struct seq_file *m, void *v, int is_pid)
 		}
 	}
 #endif
+#ifdef CONFIG_KSU_SUSFS_SUS_MAP
+	if (vma->vm_file && SUSFS_IS_INODE_SUS_MAP(file_inode(vma->vm_file))) {
+		if (!rollup_mode)
+			return 0;
+		goto bypass_smap_walk;
+	}
+#endif
 	/* mmap_sem is held in m_start */
 	walk_page_vma(vma, &smaps_walk);
+#ifdef CONFIG_KSU_SUSFS_SUS_MAP
+bypass_smap_walk:
+#endif
 
 	if (!rollup_mode) {
-		show_map_vma(m, vma, is_pid);
+show_map_vma(m, vma, is_pid);
 		if (vma_get_anon_name(vma)) {
 			seq_puts(m, "Name:           ");
 			seq_print_vma_name(m, vma);
@@ -1826,12 +1841,25 @@ static ssize_t pagemap_read(struct file *file, char __user *buf,
 		int len;
 		unsigned long end;
 
+    #ifdef CONFIG_KSU_SUSFS_SUS_MAP
+		struct vm_area_struct *sus_map_vma;
+#endif
+
 		pm.pos = 0;
 		end = (start_vaddr + PAGEMAP_WALK_SIZE) & PAGEMAP_WALK_MASK;
 		/* overflow ? */
 		if (end < start_vaddr || end > end_vaddr)
 			end = end_vaddr;
 		down_read(&mm->mmap_sem);
+    #ifdef CONFIG_KSU_SUSFS_SUS_MAP
+		sus_map_vma = find_vma(mm, start_vaddr);
+		if (sus_map_vma && sus_map_vma->vm_file &&
+				SUSFS_IS_INODE_SUS_MAP(file_inode(sus_map_vma->vm_file))) {
+			up_read(&mm->mmap_sem);
+			start_vaddr = end;
+			continue;
+		}
+#endif
 		ret = walk_page_range(start_vaddr, end, &pagemap_walk);
 		up_read(&mm->mmap_sem);
 		start_vaddr = end;
