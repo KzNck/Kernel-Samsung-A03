@@ -1,0 +1,978 @@
+make: Entering directory '/home/akira/Kernel'
+  GEN     ./Makefile
+arch/arm64/Kconfig:139:warning: ignoring type redefinition of 'TARGET_UMS9230_4H10' from 'boolean' to 'string'
+arch/arm64/Kconfig:143:warning: ignoring type redefinition of 'TARGET_UMS512_1H10' from 'boolean' to 'string'
+arch/arm64/Kconfig:148:warning: ignoring type redefinition of 'TARGET_UMS512_25C10' from 'boolean' to 'string'
+arch/arm64/Kconfig:154:warning: ignoring type redefinition of 'UMS512_25C10_CHARGER' from 'boolean' to 'string'
+arch/arm64/Kconfig:160:warning: ignoring type redefinition of 'UMS_25C10_VIB' from 'boolean' to 'string'
+arch/arm64/Kconfig:165:warning: ignoring type redefinition of 'SENSOR_DYNAMIC_MEMORY' from 'boolean' to 'string'
+drivers/misc/Kconfig:569:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:5:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:6:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:7:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:8:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:8:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:15:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:16:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Kconfig:1314:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:8:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:14:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:19:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:28:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:34:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:40:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:46:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:54:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:60:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:66:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:72:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:78:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:84:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:90:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:96:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:102:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:108:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:116:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:121:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:127:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:133:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Kconfig:1317:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:15:warning: ignoring unsupported character ''
+drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'boolean'
+drivers/input/touchscreen/Tab_A7_Unisoc/hxchipset/Kconfig:17:warning: choice value used outside its choice group
+drivers/input/touchscreen/Tab_A7_Unisoc/hxchipset/Kconfig:23:warning: choice value used outside its choice group
+drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
+drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
+arch/arm64/configs/a03_cis_open_defconfig:5079:warning: override: KSU_SUSFS changes choice state
+#
+# configuration written to .config
+#
+make: Leaving directory '/home/akira/Kernel'
+make: Entering directory '/home/akira/Kernel'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+arch/arm64/Kconfig:139:warning: ignoring type redefinition of 'TARGET_UMS9230_4H10' from 'boolean' to 'string'
+arch/arm64/Kconfig:143:warning: ignoring type redefinition of 'TARGET_UMS512_1H10' from 'boolean' to 'string'
+arch/arm64/Kconfig:148:warning: ignoring type redefinition of 'TARGET_UMS512_25C10' from 'boolean' to 'string'
+arch/arm64/Kconfig:154:warning: ignoring type redefinition of 'UMS512_25C10_CHARGER' from 'boolean' to 'string'
+arch/arm64/Kconfig:160:warning: ignoring type redefinition of 'UMS_25C10_VIB' from 'boolean' to 'string'
+arch/arm64/Kconfig:165:warning: ignoring type redefinition of 'SENSOR_DYNAMIC_MEMORY' from 'boolean' to 'string'
+drivers/misc/Kconfig:569:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:5:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:6:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:7:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:8:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:8:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:15:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:16:warning: ignoring unsupported character ''
+drivers/misc/hs03_sar/Kconfig:17:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Kconfig:1314:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:8:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:14:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:19:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:28:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:34:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:40:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:46:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:54:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:60:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:66:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:72:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:78:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:84:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:90:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:96:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:102:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:108:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:116:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:121:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:127:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Tab_A8/hxchipset/Kconfig:133:warning: ignoring unsupported character '+'
+drivers/input/touchscreen/Kconfig:1317:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:8:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/Tab_A8/focaltech_touch/Kconfig:15:warning: ignoring unsupported character ''
+drivers/samsung/debug/Kconfig:4:warning: ignoring type redefinition of 'SEC_DEBUG' from 'tristate' to 'boolean'
+drivers/input/touchscreen/Tab_A7_Unisoc/hxchipset/Kconfig:17:warning: choice value used outside its choice group
+drivers/input/touchscreen/Tab_A7_Unisoc/hxchipset/Kconfig:23:warning: choice value used outside its choice group
+drivers/samsung/debug/Kconfig:30:warning: defaults for choice values not supported
+drivers/samsung/debug/Kconfig:36:warning: defaults for choice values not supported
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  Using .. as source for kernel
+-- ReSukiSU version code: 35147
+-- ReSukiSU version name: v4.2.0-rc2-e3fcb183@ReSukiSU
+-- Supported Unofficial Manager: MKSU, RKSU, KOWSU, SukiSU-Ultra, ReSukiSU 
+-- KERNEL_VERSION: 4.14
+-- KERNEL_TYPE: Non-GKI
+-- ReSukiSU: using SuSFS Inline hook
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../kernel/sys.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_setresuid found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/exec.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_execveat found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/open.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_faccessat found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/read_write.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_sys_read found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/stat.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_stat found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../kernel/reboot.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_sys_reboot found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../drivers/input/input.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_input_handle_event found
+-- ReSukiSU/susfs_inline: WARNING: Your build maybe broken.
+-- ReSukiSU/susfs_inline: - If you have any issue, please check your hook before submit an issue to ReSukiSU.
+
+-- SUSFS_VERSION: v1.5.5
+-- ReSukiSU/compat: current_sid found
+-- ReSukiSU/compat: selinux_state found
+-- ReSukiSU/compat: kernel_read found
+-- ReSukiSU/compat: kernel_write found
+grep: ../include/linux/seccomp_types.h: No such file or directory
+-- ReSukiSU/compat: file_inode() found
+-- ReSukiSU/compat: ns_get_path found
+-- ReSukiSU/compat: modern dentry_open found
+-- ReSukiSU/compat: ext4_unregister_sysfs found
+-- ReSukiSU/compat: f_op->read_iter found
+-- ReSukiSU/compat: iterate_dir found
+-- ReSukiSU/compat: modern static_key_interface found
+-- ReSukiSU/compat: d_inode found
+-- ReSukiSU/compat: inode_lock found
+-- ReSukiSU/compat: modern errno file found
+-- ReSukiSU/compat: overflow.h found
+-- ReSukiSU/compat: modern proc ns header file found
+-- ReSukiSU/compat: android spec POLICYDB_CONFIG_ANDROID_NETLINK_ROUTE found!!
+-- ReSukiSU/compat: android spec POLICYDB_CONFIG_ANDROID_NETLINK_GETNEIGH found!!
+-- ReSukiSU/compat: found sidtab as reference
+-- ReSukiSU/compat: found new setprocattr prototype
+-- ReSukiSU/compat: found required provide lsm name
+-- ReSukiSU/compat: found selinux status variables in selinux_state
+  CHK     scripts/mod/devicetable-offsets.h
+-- ReSukiSU/compat: found security_add_hooks
+  CHK     include/generated/timeconst.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    ../scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+../scripts/mkcompile_h: line 53: hostname: command not found
+  GZIP    kernel/config_data.gz
+  CHK     kernel/kheaders_data.tar.xz
+  CC      fs/notify/fdinfo.o
+  CC      fs/pstore/inode.o
+  CC      fs/pstore/platform.o
+  CHK     kernel/config_data.h
+  CC      fs/quota/dquot.o
+  CC      fs/quota/quota_v2.o
+  CC      fs/pstore/pmsg.o
+../fs/notify/fdinfo.c:101:3: error: misleading indentation; statement is not part of the previous 'if' [-Werror,-Wmisleading-indentation]
+                inode_mark = container_of(mark, struct inotify_inode_mark, fsn_mark);
+                ^
+../fs/notify/fdinfo.c:98:2: note: previous statement is here
+        if (!(mark->connector->flags & FSNOTIFY_OBJ_TYPE_INODE))
+        ^
+../fs/notify/fdinfo.c:122:7: error: implicit declaration of function 'inotify_mark_user_mask' [-Werror,-Wimplicit-function-declaration]
+                           inotify_mark_user_mask(mark));
+                           ^
+../fs/notify/fdinfo.c:140:3: error: expected expression
+                u32 mask = mark->mask & IN_ALL_EVENTS;
+                ^
+../fs/notify/fdinfo.c:143:7: error: use of undeclared identifier 'mask'; did you mean 'mark'?
+                           mask, mark->ignored_mask);
+                           ^~~~
+                           mark
+../fs/notify/fdinfo.c:90:70: note: 'mark' declared here
+static void inotify_fdinfo(struct seq_file *m, struct fsnotify_mark *mark, struct file *file)
+                                                                     ^
+../fs/notify/fdinfo.c:211:20: error: incompatible pointer types passing 'void (struct seq_file *, struct fsnotify_mark *)' to parameter of type 'void (*)(struct seq_file *, struct fsnotify_mark *, struct file *)' [-Werror,-Wincompatible-pointer-types]
+        show_fdinfo(m, f, fanotify_fdinfo);
+                          ^~~~~~~~~~~~~~~
+../fs/notify/fdinfo.c:29:11: note: passing argument to parameter 'show' here
+                        void (*show)(struct seq_file *m,
+                               ^
+5 errors generated.
+make[3]: *** [../scripts/Makefile.build:362: fs/notify/fdinfo.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+make[2]: *** [../scripts/Makefile.build:676: fs/notify] Error 2
+make[2]: *** Waiting for unfinished jobs....
+  CC      fs/ramfs/inode.o
+  CC      fs/pstore/ss_platform_log.o
+  CC      fs/ramfs/file-mmu.o
+  CC      fs/pstore/ram.o
+  CC      fs/quota/quota_tree.o
+  AR      fs/ramfs/ramfs.o
+  AR      fs/ramfs/built-in.o
+  CC      fs/pstore/ram_core.o
+  CC      fs/quota/quota.o
+  CC      fs/quota/kqid.o
+  AR      fs/pstore/pstore.o
+  AR      fs/pstore/ramoops.o
+  AR      fs/pstore/built-in.o
+  CC      fs/quota/netlink.o
+  DTC     arch/arm64/boot/dts/sprd/ums9230.dtb
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644B0000/cputop0-sensor@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644B0000/ank0-sensor@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644B0000/ank1-sensor@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644B0000/ank2-sensor@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644B0000/prometheus7-sensor@4:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644B0000/cputop1-sensor@5:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644D0000/gpu-sensor@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644D0000/ank3-sensor@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644D0000/ank4-sensor@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644D0000/ank5-sensor@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/thermal@644D0000/prometheus6-sensor@4:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/spi@64200000/pmic@0/tsensor@1b34/osc-tsensor@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /soc/aon/spi@64200000/pmic@0/tsensor@1b34/tout-tsensor@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/mm/qos@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/mm/qos@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/mm/qos@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/mm/qos@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/mm/qos@4:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/mm/qos@5:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/ap/qos@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/ap/qos@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/ap/qos@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/wcn/qos@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/wcn/qos@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (reg_format): /qos/wcn/qos@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (ranges_format): /qos:ranges: empty "ranges" property but its #address-cells (1) differs from / (2)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (ranges_format): /qos:ranges: empty "ranges" property but its #size-cells (0) differs from / (2)
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/ap-ahb/dsi@31100000/panel: node has a reg or ranges property, but no unit name
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/ap-ahb/dphy: node has a reg or ranges property, but no unit name
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/aon/cluster0-sensor@15: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/aon/cluster1-sensor@16: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/aon/soc-sensor@17: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/aon/spi@64200000/pmic@0/power-controller@1800: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/etf@7e002000/port@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/etf@7e002000/port@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/etf@7e003000/port@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /soc/etf@7e003000/port@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /audio-dsp-dump@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /audio-dsp-dump@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /audio-dsp-dump@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@1/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@1/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@2/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@2/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@3: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@3/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@3/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@4: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@4/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@4/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@5: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@5/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@5/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@6: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@6/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@6/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@7: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@7/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@7/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@8: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@8/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@8/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@9: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@9/inputbooster,resource/resource@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /input_booster/booster_key@9/inputbooster,resource/resource@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-headset/sprd,headset-button@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-headset/sprd,headset-button@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-headset/sprd,headset-button@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@3: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@4: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@5: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@6: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@7: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@8: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@9: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@10: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@11: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@12: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@13: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@14: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@15: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@16: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@17: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@18: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@19: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@20: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@21: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@22: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@23: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@24: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@25: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@26: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@27: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@28: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@29: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@30: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@31: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@32: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@33: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@34: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@35: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@36: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@37: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@38: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@39: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@40: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@41: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@42: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@43: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@44: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@45: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@46: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@47: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@48: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@49: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@50: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@51: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@52: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@68: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@69: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@90: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@0/sprd-audio-card,dai-link@91: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sound@1/sprd-audio-card,dai-link@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /thermal-zones/soc-thmzone/trips/trip-point@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /thermal-zones/soc-thmzone/trips/trip-point@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-sipc/sipc@87800000: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-sipc/sipc@6500a400: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@3: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@4: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@5: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@6: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@7: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /sprd-spipe/spipe@8: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@2: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@3: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@4: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@5: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@6: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@7: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@8: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@9: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@10: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@11: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@12: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_vs_reg): /seth@13: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/serial@0x200a0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/serial@0x200b0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/serial@0x200c0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x200d0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x200e0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x200f0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x20100000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x20110000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2s@0x20160000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x20210000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /soc/ap-apb/i2c@0x20220000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /reserved-memory/ddrbist-mem@0x80000000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unit_address_format): /reserved-memory/rebootescrow@0x853f0000: unit name should not have leading "0x"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (pci_device_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (simple_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/cputop0-sensor@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/cputop0-sensor@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/ank0-sensor@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/ank0-sensor@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/ank1-sensor@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/ank1-sensor@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/ank2-sensor@3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/ank2-sensor@3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/prometheus7-sensor@4: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/prometheus7-sensor@4: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/cputop1-sensor@5: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644B0000/cputop1-sensor@5: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/gpu-sensor@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/gpu-sensor@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/ank3-sensor@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/ank3-sensor@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/ank4-sensor@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/ank4-sensor@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/ank5-sensor@3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/ank5-sensor@3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/prometheus6-sensor@4: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/thermal@644D0000/prometheus6-sensor@4: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/spi@64200000/pmic@0/tsensor@1b34/osc-tsensor@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/spi@64200000/pmic@0/tsensor@1b34/osc-tsensor@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/spi@64200000/pmic@0/tsensor@1b34/tout-tsensor@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /soc/aon/spi@64200000/pmic@0/tsensor@1b34/tout-tsensor@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@4: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@4: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@5: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/mm/qos@5: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/ap/qos@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/ap/qos@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/ap/qos@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/ap/qos@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/ap/qos@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/ap/qos@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/wcn/qos@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/wcn/qos@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/wcn/qos@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/wcn/qos@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/wcn/qos@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_default_addr_size): /qos/wcn/qos@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (avoid_unnecessary_addr_size): Failed prerequisite 'avoid_default_addr_size'
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (unique_unit_address): Failed prerequisite 'avoid_default_addr_size'
+-- ReSukiSU version code: 35147
+-- ReSukiSU version name: v4.2.0-rc2-e3fcb183@ReSukiSU
+-- Supported Unofficial Manager: MKSU, RKSU, KOWSU, SukiSU-Ultra, ReSukiSU 
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (pwms_property): /__symbols__:pwms: property size (22) is invalid, expected multiple of 4
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (sound_dai_property): /sound@0/sprd-audio-card,dai-link@4/codec: Missing property '#sound-dai-cells' in node /soc/interrupt-controller@10000000 or bad phandle (referred from sound-dai[1])
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e001000/ports/port@1: graph node unit address error, expected "0"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e001000/ports/port@2: graph node unit address error, expected "1"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e001000/ports/port@3: graph node unit address error, expected "2"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e001000/ports/port@4: graph node unit address error, expected "3"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e004000/ports/port@1: graph node unit address error, expected "0"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e004000/ports/port@2: graph node unit address error, expected "1"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e005000/ports/port@1: graph node unit address error, expected "0"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e005000/ports/port@2: graph node unit address error, expected "1"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e005000/ports/port@3: graph node unit address error, expected "2"
+arch/arm64/boot/dts/sprd/ums9230.dtb.reverse.dts: Warning (graph_port): /soc/funnel@7e005000/ports/port@4: graph node unit address error, expected "3"
+-- KERNEL_VERSION: 4.14
+-- KERNEL_TYPE: Non-GKI
+-- ReSukiSU: using SuSFS Inline hook
+  DTC     arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../kernel/sys.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_setresuid found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/exec.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_execveat found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/open.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_faccessat found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/read_write.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_sys_read found
+  DTC     arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../fs/stat.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_stat found
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../kernel/reboot.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_sys_reboot found
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment/__overlay__/cpwcn-btwf:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment/__overlay__/cpwcn-gnss:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment/__overlay__/sprd-wlan:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/wcn-mem@87000000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/logobuffer@9e000000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/faceid-mem@fc3a0000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/writeback-mem@fc8a0000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/framebuffer-mem@fd380000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@3/__overlay__/sensor-main@20:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@3/__overlay__/sensor-sub@5a:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@4/__overlay__/sensor-main2@20:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@5/__overlay__/charger@6b:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@5/__overlay__/charger@65:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@5/__overlay__/charger@1b:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@5/__overlay__/charger@61:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@5/__overlay__/flash-ic@63:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@6/__overlay__/sensor-sub2@6e:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@7/__overlay__/focaltech@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@13/__overlay__/heap@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@15/__overlay__/sec-nfc@27:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@15/__overlay__/ucp1301@58:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@17/__overlay__/ucp1301@58:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@17/__overlay__/vl53l0@52:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@30/__overlay__/heap@4:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/cpwcn-btwf: node has a reg or ranges property, but no unit name
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/cpwcn-gnss: node has a reg or ranges property, but no unit name
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/sprd-sipc/sipc@87200000: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/sprd-wlan: node has a reg or ranges property, but no unit name
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/fingerprint@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/charger-manager/regulator@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/charger-manager/regulator@0/cable@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment@21/__overlay__/sprd-audio-card,dai-link@53: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment@21/__overlay__/sprd-audio-card,dai-link@55: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment@21/__overlay__/sprd-audio-card,dai-link@81: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@5/__overlay__/charger@6b: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@13/__overlay__/heap@3: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@21/__overlay__/sprd-audio-card,dai-link@53: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@21/__overlay__/sprd-audio-card,dai-link@55: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@30/__overlay__/heap@4: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (pci_device_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (simple_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/cpwcn-btwf: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/cpwcn-btwf: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/cpwcn-gnss: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/cpwcn-gnss: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/sprd-wlan: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/sprd-wlan: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/wcn-mem@87000000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/wcn-mem@87000000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/logobuffer@9e000000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/logobuffer@9e000000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/faceid-mem@fc3a0000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/faceid-mem@fc3a0000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/writeback-mem@fc8a0000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/writeback-mem@fc8a0000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/framebuffer-mem@fd380000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/framebuffer-mem@fd380000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/sensor-main@20: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/sensor-main@20: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/sensor-sub@5a: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/sensor-sub@5a: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@4/__overlay__/sensor-main2@20: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@4/__overlay__/sensor-main2@20: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@6b: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@6b: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@65: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@65: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@1b: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@1b: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@61: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/charger@61: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/flash-ic@63: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@5/__overlay__/flash-ic@63: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@6/__overlay__/sensor-sub2@6e: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@6/__overlay__/sensor-sub2@6e: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/focaltech@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/focaltech@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@13/__overlay__/heap@3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@13/__overlay__/heap@3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@15/__overlay__/sec-nfc@27: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@15/__overlay__/sec-nfc@27: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@15/__overlay__/ucp1301@58: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@15/__overlay__/ucp1301@58: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@17/__overlay__/ucp1301@58: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@17/__overlay__/ucp1301@58: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@17/__overlay__/vl53l0@52: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@17/__overlay__/vl53l0@52: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@30/__overlay__/heap@4: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@30/__overlay__/heap@4: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (avoid_unnecessary_addr_size): Failed prerequisite 'avoid_default_addr_size'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (unique_unit_address): Failed prerequisite 'avoid_default_addr_size'
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@3/__overlay__/sensor-main@20: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_truly_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@3/__overlay__/sensor-sub@5a: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_truly_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@4/__overlay__/sensor-main2@20: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_dummy_mipi_hd/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@6/__overlay__/sensor-sub2@6e: Missing property '#clock-cells' in node /fragment/__overlay__/battery or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@15/__overlay__/sec-nfc@27: Missing property '#clock-cells' in node /fragment/__overlay__/battery or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/thermal-sensor: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_cpt_mipi_hdp/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/pa-sensor: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_truly_mipi_hdp/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/chg-sensor: Missing property '#io-channel-cells' in node /fragment/__overlay__/battery or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (pwms_property): /fragment/__overlay__/sprd_backlight: Missing property '#pwm-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_truly_mipi_hdp/display-timings/timing0 or bad phandle (referred from pwms[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (pwms_property): /__fixups__:pwms: Could not get phandle node for (cell 0)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (sound_dai_property): /fragment@21/__overlay__/sprd-audio-card,dai-link@53/cpu: Missing property '#sound-dai-cells' in node /fragment@2/__overlay__/pa-thmzone or bad phandle (referred from sound-dai[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (sound_dai_property): /fragment@21/__overlay__/sprd-audio-card,dai-link@55/cpu: Missing property '#sound-dai-cells' in node /fragment@2/__overlay__/pa-thmzone or bad phandle (referred from sound-dai[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (sound_dai_property): /fragment@21/__overlay__/sprd-audio-card,dai-link@81/cpu: Missing property '#sound-dai-cells' in node /fragment@2/__overlay__/pa-thmzone or bad phandle (referred from sound-dai[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/lcds/lcd_jd9365t_cpt_mipi_hdp:sprd,ddi-tp-reset-gpio: Could not get phandle node for (cell 0)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/cpwcn-btwf:merlion-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/cpwcn-btwf:merlion-rst-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/cpwcn-btwf:xtal-26m-type-sel-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/cpwcn-gnss:merlion-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/cpwcn-gnss:merlion-rst-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/cpwcn-gnss:xtal-26m-type-sel-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/fingerprint@0: Missing property '#gpio-cells' in node /fragment@1/__overlay__/wcn-mem@87000000 or bad phandle (referred from fpint-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/gpio-keys/key-volumedown:gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/gpio-keys/key-volumeup: Missing property '#gpio-cells' in node /fragment/__overlay__/battery or bad phandle (referred from gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/gpio-keys/key-power: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_cpt_mipi_hdp/display-timings/timing0 or bad phandle (referred from gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/sensor-main@20: Missing property '#gpio-cells' in node /fragment@15/__overlay__/ucp1301@58 or bad phandle (referred from dvdd-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/sensor-main@20:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/sensor-main@20:power-down-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/sensor-sub@5a: Missing property '#gpio-cells' in node /fragment@15/__overlay__/ucp1301@58 or bad phandle (referred from dvdd-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/sensor-sub@5a:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/sensor-sub@5a:power-down-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@4/__overlay__/sensor-main2@20: Missing property '#gpio-cells' in node /fragment@3/__overlay__/sensor-main@20 or bad phandle (referred from avdd-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@4/__overlay__/sensor-main2@20:mot-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@4/__overlay__/sensor-main2@20: Missing property '#gpio-cells' in node /fragment@6/__overlay__/sensor-sub2@6e or bad phandle (referred from reset-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@4/__overlay__/sensor-main2@20: Missing property '#gpio-cells' in node /fragment@5/__overlay__/flash-ic@63 or bad phandle (referred from power-down-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@5/__overlay__/charger@6b:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@5/__overlay__/charger@65:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@5/__overlay__/flash-ic@63: Missing property '#gpio-cells' in node /fragment@2/__overlay__/chg-thmzone or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@5/__overlay__/flash-ic@63:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@5/__overlay__/flash-ic@63:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@5/__overlay__/flash-ic@63:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@6/__overlay__/sensor-sub2@6e:avdd-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@6/__overlay__/sensor-sub2@6e:mot-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@6/__overlay__/sensor-sub2@6e:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@7/__overlay__/focaltech@0:focaltech,reset-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@7/__overlay__/focaltech@0:focaltech,irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@12/__overlay__: Missing property '#gpio-cells' in node /fragment@4/__overlay__/sensor-main2@20 or bad phandle (referred from cd-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@15/__overlay__/sec-nfc@27:sec-nfc,ven-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@15/__overlay__/sec-nfc@27:sec-nfc,firm-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@15/__overlay__/sec-nfc@27:sec-nfc,irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@15/__overlay__/ucp1301@58:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@17/__overlay__/ucp1301@58:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@19/__overlay__:mic-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@19/__overlay__:lr-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@24/__overlay__:avdd-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@24/__overlay__:avee-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@24/__overlay__:reset-gpio: Could not get phandle node for (cell 1)
+-- ReSukiSU/susfs_inline: WARNING: Detected KSU_MANUAL_HOOK guard in ../drivers/input/input.c file.
+-- ReSukiSU/susfs_inline: ksu_handle_input_handle_event found
+-- ReSukiSU/susfs_inline: WARNING: Your build maybe broken.
+-- ReSukiSU/susfs_inline: - If you have any issue, please check your hook before submit an issue to ReSukiSU.
+  VERIFY  arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo
+
+-- SUSFS_VERSION: v1.5.5
+-- ReSukiSU/compat: current_sid found
+-- ReSukiSU/compat: selinux_state found
+-- ReSukiSU/compat: kernel_read found
+-- ReSukiSU/compat: kernel_write found
+grep: ../include/linux/seccomp_types.h: No such file or directory
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment/__overlay__/sprd-marlin3:reg: property has invalid length (32 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@0/__overlay__/sensor-sub@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@0/__overlay__/sensor-main2@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/sensor-main@20:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@1/__overlay__/sensor-sub2@7A:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@2/__overlay__/flash-ic@62:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@2/__overlay__/flash-ic@63:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@2/__overlay__/flash-ic@64:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@2/__overlay__/flash-ic@60:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@3/__overlay__/flash-ic@62:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@3/__overlay__/flash-ic@63:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@3/__overlay__/flash-ic@64:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@3/__overlay__/flash-ic@60:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@7/__overlay__/wcn-mem@87000000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@7/__overlay__/logobuffer@9e000000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@7/__overlay__/widevine@a3800000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@7/__overlay__/writeback-mem@fc8a0000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@7/__overlay__/framebuffer-mem@fd380000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/charger@6b:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/sgm_charger@67:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/rt_charger@53:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/sgm_charger@1A:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/charger@65:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/charger@1b:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@11/__overlay__/charger@61:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@19/__overlay__/heap@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@19/__overlay__/heap@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@21/__overlay__/sec-nfc@27:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@40/__overlay__/aw9610x_sar@12:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@45/__overlay__/chipone@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@45/__overlay__/jadard@1:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@45/__overlay__/novatek@2:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@45/__overlay__/gcore@3:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@46/__overlay__/imem@7E0:reg: property has invalid length (8 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@47/__overlay__/sec_debug_region@8F000000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (reg_format): /fragment@47/__overlay__/ss_plog@8F900000:reg: property has invalid length (16 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/fingerprint@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/charger-manager/regulator@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/charger-manager/regulator@0/cable@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment/__overlay__/sprd-marlin3: node has a reg or ranges property, but no unit name
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /fragment@45/__overlay__/novatek@2/novatek-mp-criteria-7237@0: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@11/__overlay__/charger@6b: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@11/__overlay__/sgm_charger@67: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@11/__overlay__/rt_charger@53: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@11/__overlay__/sgm_charger@1A: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@19/__overlay__/heap@1: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unit_address_vs_reg): /__local_fixups__/fragment@19/__overlay__/heap@3: node has a unit name, but no reg property
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (pci_device_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (simple_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/sprd-marlin3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment/__overlay__/sprd-marlin3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@0/__overlay__/sensor-sub@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@0/__overlay__/sensor-sub@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@0/__overlay__/sensor-main2@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@0/__overlay__/sensor-main2@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/sensor-main@20: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/sensor-main@20: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/sensor-sub2@7A: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@1/__overlay__/sensor-sub2@7A: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@62: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@62: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@63: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@63: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@64: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@64: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@60: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@2/__overlay__/flash-ic@60: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@62: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@62: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@63: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@63: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@64: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@64: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@60: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@3/__overlay__/flash-ic@60: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/wcn-mem@87000000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/wcn-mem@87000000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/logobuffer@9e000000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/logobuffer@9e000000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/widevine@a3800000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/widevine@a3800000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/writeback-mem@fc8a0000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/writeback-mem@fc8a0000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/framebuffer-mem@fd380000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@7/__overlay__/framebuffer-mem@fd380000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@6b: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@6b: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/sgm_charger@67: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/sgm_charger@67: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/rt_charger@53: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/rt_charger@53: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/sgm_charger@1A: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/sgm_charger@1A: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@65: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@65: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@1b: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@1b: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@61: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@11/__overlay__/charger@61: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@19/__overlay__/heap@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@19/__overlay__/heap@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@19/__overlay__/heap@3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@19/__overlay__/heap@3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@21/__overlay__/sec-nfc@27: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@21/__overlay__/sec-nfc@27: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@40/__overlay__/aw9610x_sar@12: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@40/__overlay__/aw9610x_sar@12: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/chipone@0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/chipone@0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/jadard@1: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/jadard@1: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/novatek@2: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/novatek@2: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/gcore@3: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@45/__overlay__/gcore@3: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@46/__overlay__/imem@7E0: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@46/__overlay__/imem@7E0: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@47/__overlay__/sec_debug_region@8F000000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@47/__overlay__/sec_debug_region@8F000000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@47/__overlay__/ss_plog@8F900000: Relying on default #address-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_default_addr_size): /fragment@47/__overlay__/ss_plog@8F900000: Relying on default #size-cells value
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (avoid_unnecessary_addr_size): Failed prerequisite 'avoid_default_addr_size'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (unique_unit_address): Failed prerequisite 'avoid_default_addr_size'
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment/__overlay__/sprd-marlin3: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_nt36525b_txd_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@0/__overlay__/sensor-sub@1: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@0/__overlay__/sensor-main2@2: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_hsd_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@1/__overlay__/sensor-main@20: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@1/__overlay__/sensor-sub2@7A: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_nt36525b_txd_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (clocks_property): /fragment@21/__overlay__/sec-nfc@27: Missing property '#clock-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_mipi_hdp/display-timings/timing0 or bad phandle (referred from clocks[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/bat_id_via_adc: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_hsd_mipi_hdp/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/charger-manager: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_truly_mipi_hdp/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/thermal-sensor: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_hs03_default_panel_mipi_hd/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/pa-sensor: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_mipi_hdp/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (io_channels_property): /fragment/__overlay__/chg-sensor: Missing property '#io-channel-cells' in node /fragment/__overlay__/lcds/lcd_nt36525b_txd_mipi_hdp/display-timings/timing0 or bad phandle (referred from io-channels[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/lcds/lcd_jd9365t_hlt_hsd_mipi_hdp:sprd,ddi-tp-reset-gpio: Could not get phandle node for (cell 0)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/lcds/lcd_jd9365t_cpt_mipi_hdp:sprd,ddi-tp-reset-gpio: Could not get phandle node for (cell 0)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/lcds/lcd_jd9365t_txd_ctc_mipi_hdp_video:sprd,ddi-tp-reset-gpio: Could not get phandle node for (cell 0)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/fingerprint@0: Missing property '#gpio-cells' in node /fragment@35/__overlay__/rfctl6 or bad phandle (referred from fpint-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/gpio-keys/key-volumedown: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_nt36525b_txd_mipi_hdp/display-timings/timing0 or bad phandle (referred from gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/gpio-keys/key-volumeup:gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/gpio-keys/key-power: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_hs03_default_panel_mipi_hd/display-timings/timing0 or bad phandle (referred from gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/charger-manager:draw-vbus-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/sprd-marlin3: Missing property '#gpio-cells' in node /fragment@2/__overlay__/flash-ic@62 or bad phandle (referred from m2-wakeup-ap-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/sprd-marlin3:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/sprd-marlin3:enable-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment/__overlay__/sprd-marlin3: Missing property '#gpio-cells' in node /fragment@1/__overlay__/sensor-sub2@7A or bad phandle (referred from m2-to-ap-irq-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@0/__overlay__/sensor-sub@1: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_genrpro_mipi_hdp or bad phandle (referred from reset-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@0/__overlay__/sensor-main2@2: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_txd_ctc_mipi_hdp_video or bad phandle (referred from reset-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@0/__overlay__/sensor-main2@2:avdd-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@1/__overlay__/sensor-main@20: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_gc7202h_hlt_ctc_mipi_hdp or bad phandle (referred from reset-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@1/__overlay__/sensor-main@20:iovdd-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@1/__overlay__/sensor-main@20: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_hlt_hsd_mipi_hdp_video or bad phandle (referred from power-down-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@1/__overlay__/sensor-sub2@7A:reset-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@1/__overlay__/sensor-sub2@7A:avdd-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@62: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@62:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@62:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@62:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@63: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@63:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@63:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@63:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@64: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@64:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@64:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@64:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@60: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@60:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@60:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@2/__overlay__/flash-ic@60:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@62: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@62:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@62:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@62:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@63: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@63:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@63:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@63:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@64: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@64:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@64:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@64:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@60: Missing property '#gpio-cells' in node /fragment@35/__overlay__/bt_rfctl2 or bad phandle (referred from flash-torch-en-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@60:flash-chip-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@60:flash-en-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@3/__overlay__/flash-ic@60:flash-sync-gpios: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@11/__overlay__/charger@6b:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@11/__overlay__/sgm_charger@67:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@11/__overlay__/sgm_charger@1A:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@11/__overlay__/charger@65:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@18/__overlay__: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_jd9365t_hlt_hsd_mipi_hdp or bad phandle (referred from cd-gpios[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@21/__overlay__/sec-nfc@27:sec-nfc,ven-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@21/__overlay__/sec-nfc@27:sec-nfc,firm-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@21/__overlay__/sec-nfc@27:sec-nfc,irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@26/__overlay__: Missing property '#gpio-cells' in node /fragment/__overlay__/lcds/lcd_nl9911c_truly_6mask_mipi_hdp or bad phandle (referred from sprd,spk-ext-pa-gpio[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@26/__overlay__:sprd,hpr-ext-pa-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@40/__overlay__/aw9610x_sar@12:irq-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@44/__overlay__:avdd-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@44/__overlay__:avee-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@44/__overlay__: Missing property '#gpio-cells' in node /fragment@0/__overlay__/sensor-main2@2 or bad phandle (referred from reset-gpio[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/chipone@0:chipone,rst-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/chipone@0: Missing property '#gpio-cells' in node /fragment/__overlay__/battery1 or bad phandle (referred from chipone,irq-gpio[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/jadard@1: Missing property '#gpio-cells' in node /fragment/__overlay__/battery1 or bad phandle (referred from jadard,irq-gpio[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/jadard@1:jadard,rst-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/novatek@2:novatek,reset-gpio: Could not get phandle node for (cell 1)
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/novatek@2: Missing property '#gpio-cells' in node /fragment/__overlay__/battery1 or bad phandle (referred from novatek,irq-gpio[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/gcore@3: Missing property '#gpio-cells' in node /fragment/__overlay__/battery1 or bad phandle (referred from gcore,irq-gpio[1])
+arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo.reverse.dts: Warning (gpios_property): /fragment@45/__overlay__/gcore@3:gcore,rst-gpio: Could not get phandle node for (cell 1)
+  VERIFY  arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo
+-- ReSukiSU/compat: file_inode() found
+ufdt_apply_overlay: took 0.160999000 secs
+  VTS     arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo
+/home/akira/Kernel/tools/mkdtimg/ufdt_verify_overlay_host: error while loading shared libraries: libc++.so: cannot open shared object file: No such file or directory
+make[3]: *** [scripts/Makefile.dtbo:38: arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo] Error 127
+make[3]: *** Deleting file 'arch/arm64/boot/dts/sprd/ums9230-1h10-overlay.dtbo'
+make[3]: *** Waiting for unfinished jobs....
+-- ReSukiSU/compat: ns_get_path found
+-- ReSukiSU/compat: modern dentry_open found
+-- ReSukiSU/compat: ext4_unregister_sysfs found
+-- ReSukiSU/compat: f_op->read_iter found
+-- ReSukiSU/compat: iterate_dir found
+-- ReSukiSU/compat: modern static_key_interface found
+-- ReSukiSU/compat: d_inode found
+-- ReSukiSU/compat: inode_lock found
+-- ReSukiSU/compat: modern errno file found
+-- ReSukiSU/compat: overflow.h found
+-- ReSukiSU/compat: modern proc ns header file found
+-- ReSukiSU/compat: android spec POLICYDB_CONFIG_ANDROID_NETLINK_ROUTE found!!
+-- ReSukiSU/compat: android spec POLICYDB_CONFIG_ANDROID_NETLINK_GETNEIGH found!!
+-- ReSukiSU/compat: found sidtab as reference
+-- ReSukiSU/compat: found new setprocattr prototype
+-- ReSukiSU/compat: found required provide lsm name
+  AR      fs/quota/built-in.o
+-- ReSukiSU/compat: found selinux status variables in selinux_state
+make[1]: *** [/home/akira/Kernel/Makefile:1204: fs] Error 2
+make[1]: *** Waiting for unfinished jobs....
+-- ReSukiSU/compat: found security_add_hooks
+ufdt_apply_overlay: took 0.212035000 secs
+  VTS     arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo
+/home/akira/Kernel/tools/mkdtimg/ufdt_verify_overlay_host: error while loading shared libraries: libc++.so: cannot open shared object file: No such file or directory
+make[3]: *** [scripts/Makefile.dtbo:38: arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo] Error 127
+make[3]: *** Deleting file 'arch/arm64/boot/dts/sprd/ums9230-4h10-overlay.dtbo'
+make[2]: *** [../scripts/Makefile.build:676: arch/arm64/boot/dts/sprd] Error 2
+make[1]: *** [arch/arm64/Makefile:207: dtbs] Error 2
+  CC      drivers/kernelsu/supercall/dispatch.o
+  CC      drivers/kernelsu/supercall/supercall.o
+  CC      drivers/kernelsu/hook/arm64/patch_memory.o
+  CC      drivers/pci/dwc/pcie-hisi.o
+  CC      drivers/of/base.o
+  CC      drivers/kernelsu/infra/symbol_resolver.o
+  CC      drivers/kernelsu/hook/lsm_hooks.o
+  CC      drivers/of/device.o
+  CC      drivers/of/platform.o
+  CC      drivers/perf/arm_pmu.o
+../drivers/kernelsu/supercall/dispatch.c:1003:10: error: use of undeclared identifier 'CMD_SUSFS_ADD_SUS_PATH_LOOP'
+    case CMD_SUSFS_ADD_SUS_PATH_LOOP: {
+         ^
+drivers/pci/dwc/.tmp_pcie-hisi.o: no symbols
+../drivers/kernelsu/supercall/dispatch.c:1009:10: error: use of undeclared identifier 'CMD_SUSFS_HIDE_SUS_MNTS_FOR_NON_SU_PROCS'
+    case CMD_SUSFS_HIDE_SUS_MNTS_FOR_NON_SU_PROCS: {
+         ^
+  AR      drivers/pci/dwc/built-in.o
+  CC      drivers/of/property.o
+../drivers/kernelsu/supercall/dispatch.c:1053:10: error: use of undeclared identifier 'CMD_SUSFS_ADD_SUS_MAP'
+    case CMD_SUSFS_ADD_SUS_MAP: {
+         ^
+../drivers/kernelsu/supercall/dispatch.c:1058:10: error: use of undeclared identifier 'CMD_SUSFS_ENABLE_AVC_LOG_SPOOFING'
+    case CMD_SUSFS_ENABLE_AVC_LOG_SPOOFING: {
+         ^
+4 errors generated.
+make[3]: *** [../scripts/Makefile.build:362: drivers/kernelsu/supercall/dispatch.o] Error 1
+make[3]: *** Waiting for unfinished jobs....
+  CC      drivers/perf/arm_pmu_platform.o
+../drivers/kernelsu/supercall/supercall.c:155:19: error: use of undeclared identifier 'SUSFS_MAGIC'
+    if (magic2 == SUSFS_MAGIC) {
+                  ^
+1 error generated.
+make[3]: *** [../scripts/Makefile.build:362: drivers/kernelsu/supercall/supercall.o] Error 1
+  CC      drivers/of/fdt.o
+  CC      drivers/pinctrl/core.o
+  CC      drivers/pinctrl/pinctrl-utils.o
+  CC      drivers/pinctrl/pinmux.o
+  CC      drivers/of/fdt_address.o
+  AR      drivers/platform/built-in.o
+  CC      drivers/of/address.o
+  AR      drivers/ptp/built-in.o
+  CC      drivers/power/reset/sc27xx-poweroff.o
+  CC      drivers/pinctrl/pinconf.o
+make[2]: *** [../scripts/Makefile.build:676: drivers/kernelsu] Error 2
+make[2]: *** Waiting for unfinished jobs....
+  CC      drivers/of/irq.o
+  CC      drivers/pinctrl/devicetree.o
+  CC      drivers/of/of_net.o
+  CC      drivers/power/supply/battery_id_via_adc.o
+  AR      drivers/perf/built-in.o
+  CC      drivers/pinctrl/pinconf-generic.o
+  CC      drivers/of/of_mdio.o
+  AR      drivers/pinctrl/bcm/built-in.o
+  CC      drivers/power/supply/power_supply_core.o
+  AR      drivers/power/reset/built-in.o
+  CC      drivers/of/of_reserved_mem.o
+  AR      drivers/pinctrl/freescale/built-in.o
+  AR      drivers/pinctrl/mvebu/built-in.o
+  CC      drivers/power/supply/power_supply_sysfs.o
+  AR      drivers/pinctrl/nomadik/built-in.o
+  CC      drivers/pinctrl/sprd/pinctrl-sprd.o
+  AR      drivers/pinctrl/ti/built-in.o
+  CC      drivers/power/supply/power_supply_leds.o
+  CC      drivers/pinctrl/sprd/pinctrl-sprd-qogirl6.o
+  CC      drivers/power/supply/charger-manager.o
+  CC      drivers/power/supply/sprd_vote.o
+  CC      drivers/power/supply/sc27xx_fuel_gauge.o
+  CC      drivers/power/supply/bq2560x-charger.o
+  CC      drivers/power/supply/sgm41511-charger.o
+  CC      drivers/power/supply/sgm41513-charger.o
+  CC      drivers/power/supply/rt9471_charger.o
+  AR      drivers/pinctrl/sprd/built-in.o
+  AR      drivers/pinctrl/built-in.o
+  AR      drivers/power/supply/power_supply.o
+  AR      drivers/of/built-in.o
+  AR      drivers/power/supply/built-in.o
+  AR      drivers/power/built-in.o
+make[1]: *** [/home/akira/Kernel/Makefile:1204: drivers] Error 2
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/home/akira/Kernel'
+cp: -r not specified; omitting directory 'out/arch/arm64/boot/Image'

@@ -569,7 +569,8 @@ static inline void file_pos_write(struct file *file, loff_t pos)
 }
 
 #ifdef CONFIG_KSU_MANUAL_HOOK
-extern bool ksu_init_rc_hook __read_mostly;
+#include <linux/jump_label.h>
+extern struct static_key_true ksu_is_init_rc_hook_enabled;
 extern __attribute__((cold)) int ksu_handle_sys_read(unsigned int fd,
 				char __user **buf_ptr, size_t *count_ptr);
 #endif
@@ -581,7 +582,7 @@ SYSCALL_DEFINE3(read, unsigned int, fd, char __user *, buf, size_t, count)
 	ssize_t ret = -EBADF;
 
 #ifdef CONFIG_KSU_MANUAL_HOOK
-	if (unlikely(ksu_init_rc_hook)) 
+	if (static_branch_likely(&ksu_is_init_rc_hook_enabled))
 		ksu_handle_sys_read(fd, &buf, &count);
 #endif
 
